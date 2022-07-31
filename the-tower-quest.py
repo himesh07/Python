@@ -24,9 +24,6 @@ print('''
 print("Welcome to The Tower Quest")
 print("Your mission is to save the princess.")
 
-#Flow Chart
-#Write your code below this line 👇
-
 choice1 = input('You\'re at the gate, there\'s a cross road ahead. Where do you want to go? Type "left" or "right" \n').lower()
 if choice1 == "left":
   choice2 = input('You\'ve come to a lake surrounding the tower. Type "wait" to wait for a boat. Type "swim" to swim across. \n').lower()
